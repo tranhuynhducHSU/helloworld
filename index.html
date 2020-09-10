@@ -4,8 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <script>
+        function CapText(){
+            text = document.getElementById("textToCap").value
+            text = text.toUpperCase()
+            document.getElementById("textToCap").value = text
+        }
+    </script>
 </head>
 <body>
     <h2> Hello world! </h2>
+    <input type="text" id="textToCap">
+    <button onclick="CapText()">Cap Text</button>
 </body>
 </html>
