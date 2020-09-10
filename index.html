@@ -7,11 +7,11 @@
 
     <script>
         function ClickBT(){
-            CapText(document.getElementById("textToCap").value)
+            text = document.getElementById("textToCap").value
+            document.getElementById("textToCap").value = CapText(text)
         }
-        function CapText(text){
-            text = text.toUpperCase()
-            document.getElementById("textToCap").value = text
+        function CapText(text){ 
+            return text.toUpperCase()
         }
     </script>
 </head>
