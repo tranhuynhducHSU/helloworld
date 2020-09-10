@@ -11,4 +11,4 @@
 - Hàm CapText(text) nhận input là text kiểu string và trả vể kiểu viết hoa của text đó.
 - ClickBT() nhận kết quả và gán thông tin vào textbox.
 
-License under the [MIT License](LICENSE).
+License under the [MIT License](./LICENCE).
