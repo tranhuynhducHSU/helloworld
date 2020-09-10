@@ -9,3 +9,5 @@
 -Khi người dùng nhập chữ và nhấn nút "Cap Text" sẽ khỏi chạy hàm ClickBT thông qua sự kiên onclick gọi đến hàm CapText(text).
 -Hàm CapText(text) nhận input là text kiểu string và trả vể kiểu viết hoa của text đó.
 -ClickBT() nhận kết quả và gán thông tin vào textbox.
+
+License under the [MIT License](LICENSE).
