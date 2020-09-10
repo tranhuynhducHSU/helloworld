@@ -6,8 +6,10 @@
     <title>Document</title>
 
     <script>
-        function CapText(){
-            text = document.getElementById("textToCap").value
+        function ClickBT(){
+            CapText(document.getElementById("textToCap").value)
+        }
+        function CapText(text){
             text = text.toUpperCase()
             document.getElementById("textToCap").value = text
         }
@@ -16,6 +18,6 @@
 <body>
     <h2> Hello world! </h2>
     <input type="text" id="textToCap">
-    <button onclick="CapText()">Cap Text</button>
+    <button onclick="ClickBT()">Cap Text</button>
 </body>
 </html>
